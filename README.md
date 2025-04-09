@@ -1,2 +1,2 @@
 # AST-Spacial-Uniformity-Testing
-ast-uniformity-xy-gantry
+This repository involves the code for an x-y gantry that performs spatial uniformity tests on AST lamps, and the data from the first 3 test. The project used a Rasberriy Pi 4 model B connected to two DRV8825 motor drivers that themselves were connected to two Nema-17 Stepper Motors. These controlled a cart on a linear stage; each axis was moved via linear actuators powered by these motors. Regarding Data collection, I used python seabreeze with a Ocean Optics Flame Spectrometer. Note that this spectrometer had a circular testing point with a lip, which is atypical for most solar panels .
